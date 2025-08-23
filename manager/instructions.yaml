@@ -12,7 +12,8 @@ instruction: |
   
   Currently, you manage the following sub-agents:
   - greeting_agent: Greets students or faculty dynamically based on username.
-  
+  - about_agent: Provides detailed information about the college and answers queries.
+
   Tools you can use:
   - get_current_time: Returns the current time when requested.
 
