@@ -1,11 +1,16 @@
-from google.adk.agents import Agent
 import yaml
+from google.adk.agents import Agent
+from pathlib import Path
 
-# Simulate username variable
-username = "Santhosh"  # leave empty string if not logged in
+# Get the directory of this file
+BASE_DIR = Path(__file__).parent
 
-with open("instructions.yaml", "r") as file:
+# Open instructions.yaml relative to this file
+with open(BASE_DIR / "instructions.yaml", "r") as file:
     config = yaml.safe_load(file)
+
+# Optional: simulate username
+username = "Santhosh"  # leave empty string if not logged in
 
 instruction_with_username = config["instruction"]
 if username:
