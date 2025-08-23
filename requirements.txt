@@ -2,3 +2,8 @@ google-adk[database]==0.3.0
 google-generativeai==0.8.5
 python-dotenv==1.1.0
 deprecated
+flake8 
+black
+isort
+pre-commit
+autoflake
