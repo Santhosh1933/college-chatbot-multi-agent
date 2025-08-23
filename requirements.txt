@@ -7,3 +7,5 @@ black
 isort
 pre-commit
 autoflake
+requests 
+beautifulsoup4
