@@ -1,8 +1,7 @@
-from google.adk.agents import Agent
-from google.adk.tools.agent_tool import AgentTool
-import yaml
 from pathlib import Path
 
+import yaml
+from google.adk.agents import Agent
 
 # Import sub-agents
 from .sub_agents.greeting_agent.agent import root_agent as greeting_agent

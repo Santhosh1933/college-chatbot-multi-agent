@@ -1,6 +1,7 @@
+from pathlib import Path
+
 import yaml
 from google.adk.agents import Agent
-from pathlib import Path
 
 # Get the directory of this file
 BASE_DIR = Path(__file__).parent
